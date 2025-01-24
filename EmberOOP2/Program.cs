@@ -16,6 +16,8 @@ namespace EmberOOP2
             Console.WriteLine(e2.Nev);
             e1.Nev = "János";
             Console.WriteLine(e1.Nev);
+            Console.WriteLine($"{e1.Nev} eletkora: {e1.Eletkor}");
+            Console.WriteLine($"{e1.Nev} eletkora: {e1.EletkorMetodus()}");
         }
     }
 }
