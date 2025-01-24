@@ -18,6 +18,10 @@ namespace EmberOOP2
             Console.WriteLine(e1.Nev);
             Console.WriteLine($"{e1.Nev} eletkora: {e1.Eletkor}");
             Console.WriteLine($"{e1.Nev} eletkora: {e1.EletkorMetodus()}");
+            Ember e3 = new Ember("Elemér", 50);
+            Console.WriteLine(e3);
+            Ember e4 = new Ember(48);
+            Console.WriteLine(e4);
         }
     }
 }
