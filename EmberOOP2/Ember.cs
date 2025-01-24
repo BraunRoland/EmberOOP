@@ -29,6 +29,13 @@ namespace EmberOOP2
             {
                 return nev;
             }
+            set
+            {
+                this.nev = value;
+            }
         }
+
+        public int SzuletesiEv { get => szuletesiEv; }
+        public int Magassag { get => magassag; set => magassag = value; }
     }
 }

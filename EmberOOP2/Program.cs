@@ -14,6 +14,8 @@ namespace EmberOOP2
             Ember e2 = new Ember("Julcsika", 1858, 121);
             Console.WriteLine(e1.Nev);
             Console.WriteLine(e2.Nev);
+            e1.Nev = "János";
+            Console.WriteLine(e1.Nev);
         }
     }
 }
