@@ -12,7 +12,23 @@ namespace EmberOOP2
         private int szuletesiEv;
         private int magassag;
 
+        // konstruktor: létrehozza az objektumot
+        // mindig public és mindig megegyezik az osztály nevével
+        // 3 paraméteres konstruktor: 
 
+        public Ember (string nev, int szuletesiEv, int magassag)
+        {
+            this.nev = nev;
+            this.szuletesiEv = szuletesiEv;
+            this.magassag = magassag;
+        }
 
+        public string Nev
+        {
+            get
+            {
+                return nev;
+            }
+        }
     }
 }

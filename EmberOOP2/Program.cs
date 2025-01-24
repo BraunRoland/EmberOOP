@@ -10,6 +10,10 @@ namespace EmberOOP2
     {
         static void Main(string[] args)
         {
+            Ember e1 = new Ember("Jancsi", 1860, 120);
+            Ember e2 = new Ember("Julcsika", 1858, 121);
+            Console.WriteLine(e1.Nev);
+            Console.WriteLine(e2.Nev);
         }
     }
 }
